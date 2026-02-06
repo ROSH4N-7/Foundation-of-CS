@@ -12,3 +12,4 @@
     JoinDate DATE,
     PRIMARY KEY (StudentID, ClubName)
 );
+- After creating database I created a table named info with the provided details using the create table command.
