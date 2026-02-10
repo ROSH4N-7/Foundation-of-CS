@@ -1,7 +1,9 @@
 1) docker exec -it mysql mysql -u root -p
 - This executes mysql and after this we need to enter password.
+
 2) Create database school_info;
 - After executing that i created a database named school_info using create database command.
+
 3) Create table info(
     StudentID INT,
     StudentName VARCHAR(50),
@@ -10,6 +12,12 @@
     ClubRoom VARCHAR(10),
     ClubMentor VARCHAR(50),
     JoinDate DATE,
-    PRIMARY KEY (StudentID, ClubName)
-);
+    PRIMARY KEY (StudentID, ClubName));
 - After creating database I created a table named info with the provided details using the create table command.
+
+4) Insert into info (StudentID, StudentName, Email, ClubName, ClubRoom, ClubMentor, JoinDate) VALUES
+(1, 'Asha', 'asha@email.com', 'Music Club', 'R101', 'Mr. Raman', '2024-01-10'), .....;
+- Inserting data into info table using insert sql command.
+
+5)Select * from info;
+- Displaying the data inserted in table using select sql command.
