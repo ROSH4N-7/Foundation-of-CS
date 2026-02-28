@@ -1,0 +1,10 @@
+1) CREATE TABLE Mentor (
+    ClubMentor VARCHAR(50) PRIMARY KEY,
+    ClubRoom VARCHAR(10));
+- Created table Mentor.
+
+2) CREATE TABLE Club_3NF (
+    ClubName VARCHAR(50) PRIMARY KEY,
+    ClubMentor VARCHAR(50),
+    FOREIGN KEY (ClubMentor) REFERENCES Mentor(ClubMentor));
+- Created table club_3nf.
