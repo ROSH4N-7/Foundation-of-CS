@@ -34,7 +34,7 @@
 ('Sports Club', 'R202', 'Ms. Sita'),
 ('Drama Club', 'R303', 'Mr. Kiran'),
 ('Coding Club', 'Lab1', 'Mr. Anil');
-- Inserted values in Club table.
+- Inserted club values in Club table.
 
 6) INSERT INTO Membership VALUES
 (1, 'Music Club', '2024-01-10'),
