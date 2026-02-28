@@ -8,3 +8,17 @@
     ClubMentor VARCHAR(50),
     FOREIGN KEY (ClubMentor) REFERENCES Mentor(ClubMentor));
 - Created table club_3nf.
+
+3) INSERT INTO Mentor VALUES 
+('Mr. Raman', 'R101'),
+('Ms. Sita', 'R202'),
+('Mr. Kiran', 'R303'),
+('Mr. Anil', 'Lab1');
+- Inserted values in Mentor.
+
+4) INSERT INTO Club_3NF VALUES 
+('Music Club', 'Mr. Raman'),
+('Sports Club', 'Ms. Sita'),
+('Drama Club', 'Mr. Kiran'),
+('Coding Club', 'Mr. Anil');
+- Inserted values in club_3nf.
