@@ -10,3 +10,21 @@
     ClubMentor VARCHAR(50));
 - I created a table club to store club info only once.
 
+3) CREATE TABLE Membership (
+    StudentID INT,
+    ClubName VARCHAR(50),
+    JoinDate DATE,
+    PRIMARY KEY (StudentID, ClubName),
+    FOREIGN KEY (StudentID) REFERENCES Student(StudentID),
+    FOREIGN KEY (ClubName) REFERENCES Club(ClubName));
+- This table links them.
+
+4) INSERT INTO Student VALUES 
+(1, 'Asha', 'asha@email.com'),
+(2, 'Bikash', 'bikash@email.com'),
+(3, 'Nisha', 'nisha@email.com'),
+(4, 'Rohan', 'rohan@email.com'),
+(5, 'Suman', 'suman@email.com'),
+(6, 'Pooja', 'pooja@email.com'),
+(7, 'Aman', 'aman@email.com');
+- Inserted values in Student table.
