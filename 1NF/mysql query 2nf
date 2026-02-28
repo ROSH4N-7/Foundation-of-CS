@@ -1,0 +1,12 @@
+1) CREATE TABLE Student (
+    StudentID INT PRIMARY KEY,
+    StudentName VARCHAR(50),
+    Email VARCHAR(100));
+- I created a table student to store student name once.
+
+2) CREATE TABLE Club (
+    ClubName VARCHAR(50) PRIMARY KEY,
+    ClubRoom VARCHAR(10),
+    ClubMentor VARCHAR(50));
+- I created a table club to store club info only once.
+
