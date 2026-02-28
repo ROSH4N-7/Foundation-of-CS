@@ -26,4 +26,4 @@
 - Inserting data into info table using insert sql command.
 
 4)Select * from info;
-- Displaying the data inserted in table using select sql command.
+- Displaying the data inserted in table using select command.
