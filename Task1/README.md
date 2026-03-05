@@ -9,10 +9,7 @@ The project emphasizes encoding as a complementary tool to encryption, aligning 
 - [Overview](#overview)
 - [Encoding Formats Summary](#encoding-formats-summary)
 - [Key Highlights](#key-highlights)
-- [Usage](#usage)
 - [Report Structure](#report-structure)
-- [References](#references)
-- [Contributing](#contributing)
 - [License](#license)
 
 # 🔑 Encoding Formats Summary
